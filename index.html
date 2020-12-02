@@ -1,0 +1,492 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Filmes Q</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <img src="logo.png" class="logo">
+
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Lançamentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Em destaque</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Avaliações</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Entrevistas & makingof</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Novidades</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  </header>
+
+  <main class="container-fluid">
+    <section>
+
+      <h1 class="title"><b>Lançamentos</b></h1>
+    </section>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="0">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-7">
+              <iframe id="video1" width="450" height="315" src="https://www.youtube.com/embed/b12hsuf7iz8"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-sm-none col-md-12 col-lg-5 ">
+              <h3 class="subtitle2">A ilha da fantasia</h3>
+              <p class="text2" style="font-size: medium;"><b>SINOPSE:</b> "Uma ilha mágica no meio do Oceano Pacífico
+                oferece aos seus visitantes a
+                possibilidade de realizar seus sonhos e
+                viver aventuras que parecem impossíveis em qualquer outro lugar. Porém, como avisa o anfitrião da ilha,
+                Sr. Roarke
+                (Michael Pena), realizar seus desejos pode não acontecer da maneira esperada.<br />
+                <b>DIREÇÃO:</b> Jeff Wadlow &nbsp;&nbsp; <b>ESTREIA:</b> 2020<br /><br />
+                <b>ELENCO:</b> Michael Peña, Maggie Q, Lucy Hale</br><br />
+                <b>Avaliação:</b><br />
+                <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="star1.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="star1.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="star1.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="star1.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="star0.png" id="s5"></a>
+              <p id="rating"></p>
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-7">
+              <iframe id="video2" width="450" height="315" src="https://www.youtube.com/embed/xXEwp0uQmjM"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 ">
+              <h3 class="subtitle2">Mulher Maravilha 1984</h3>
+              <p class="text2" style="font-size: medium;"><b>SINOPSE:</b>Mulher-Maravilha 1984 acompanha Diana
+                Prince/Mulher-Maravilha (Gal Gadot)
+                em 1984, durante a Guerra Fria, que entra em conflito com dois grande inimigos - o empresário de mídia
+                Maxwell Lord (Pedro Pascal) e a amiga que virou inimiga Barbara
+                enquanto se reúne com seu interesse amoroso Steve Trevor.<br />
+                <b>DIREÇÃO:</b> Patty Jenkins &nbsp;&nbsp; <b>ESTREIA:</b> 2020<br /><br />
+                <b>ELENCO:</b> Gal Gadot, Chris Pine, Kristen Wiig</br><br />
+                <b>Avaliação:</b><br /> <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="star1.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="star1.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="star1.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="star1.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="star0.png" id="s5"></a>
+              <p id="rating"></p>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-7">
+              <iframe id="video3" width="450" height="315" src="https://www.youtube.com/embed/xzcuELDkkEc"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 ">
+              <h3 class="subtitle2">Viúva Negra</h3>
+              <p class="text2" style="font-size: medium;"><b>SINOPSE:</b>Natasha Romanoff confronta as partes obscuras
+                de sua racionalidade quando
+                uma perigosa conspiração atada ao seu passado vem à tona. Perseguida por uma força que não vai parar até
+                destruí-la, Natasha deve lidar com sua história como espiã e com os relacionamentos despedaçados
+                deixados para trás depois de se tornar uma Vingadora. <br />
+                <b>DIREÇÃO:</b>: Cate Shortland &nbsp;&nbsp; <b>ESTREIA:</b> 2020<br /><br />
+                <b>ELENCO:</b> Scarlett Johansson, Florence Pugh, David Harbour</br><br />
+                <b>Avaliação:</b><br /> <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="star1.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="star1.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="star1.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="star1.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="star0.png" id="s5"></a>
+              <p id="rating"></p>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span style="background-color:black !important" class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span style="background-color:black !important" class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <p id="destaque">
+    <h2><b>&nbsp;Em destaque</b></h2>
+    </p>
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-end botao_main">
+      <div class="dropdown botao_submain">
+        <button class="btn btn-secondary dropdown-toggle botao_cartaz" type="button" id="dropdownMenuButton"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categoria: Fantasia
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Romance</a>
+          <a class="dropdown-item" href="#">Ação</a>
+          <a class="dropdown-item active cartza_active" href="#">Fantasia</a>
+          <a class="dropdown-item" href="#">Comédia</a>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-3 filmes_main filmes_main2">
+            <a href="#"><img src="it2.jpg" alt="filmes-categoria" class="img_cartaz"></a>
+            <h4><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IT 2</b></h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 filmes_main filmes_main1">
+            <a href="#"><img src="pantera negra.jpg" alt="filmes-categoria" class="img_cartaz"></a>
+            <h4><b>&nbsp;&nbsp;&nbsp;&nbsp;Pantera Negra</b></h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 filmes_main filmes_main1">
+            <a href="#"><img src="capitamarvel.jpg" alt="filmes-categoria" class="img_cartaz"></a></a>
+            <h4><b>&nbsp;&nbsp;&nbsp;&nbsp;Capitã Marvel</b></h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 filmes_main filmes_main2">
+            <a href="#"><img src="sonic.jpg" alt="filmes-categoria" class="img_cartaz"></a></a>
+            <h4><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonic</b></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-end button_main">
+        <button type="button" class="btn btn-primary btn-sm botao"><span><i class="fas fa-plus"></i></span>Carregar mais
+          filmes</button>
+      </div>
+    </div>
+    <div class="avaliacao">
+      <p id="destaque">
+      <h2><b>Últimas avaliações</b></h2>
+      </p>
+    </div>
+    <div class="row" style="font-size: medium;">
+
+      <div class="img_avaliacao  col-12 col-md-6 col-lg-4 ">
+        &nbsp; <img src="avaliacao1.jpg" alt="avaliacao"> <b>&nbsp;&nbsp;Yuri Januário Rocha</b>
+        <br><br> "O filme Pantera Negra é simplesmente fantástico! Quando eu o assisti em 2018, não olhava essas
+        questões de roteiro, atuação, etc. Mas nesse ano, quando eu o reassisti, comecei a olhar essas questões, assim
+        como em outros filmes e séries. O elenco possui excelentes atores." <br><br><br> <b>Avaliação: </b>
+        <a href="javascript:void(0)" onclick="Avaliar(1)">
+          <img src="star1.png" id="s1"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(2)">
+          <img src="star1.png" id="s2"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(3)">
+          <img src="star1.png" id="s3"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(4)">
+          <img src="star1.png" id="s4"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(5)">
+          <img src="star1.png" id="s5"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>17/11/2018</b><br><br>
+
+      </div>
+      <div class="img_avaliacao  col-12 col-md-6 col-lg-4 ">
+        &nbsp; <img src="avaliacao2.jpg" alt="avaliacao"> <b>&nbsp;&nbsp; Bryan de Sá</b>
+        <br><br> "IT 2: Elenco impecável e uma direção tão boa, que chegava a dar vergonha alheia deles lidando com esse
+        roteiro. O filme não consegue assustar, perde o rumo na hora de emocionar e tem um cgi digno de 2002 em muitas
+        cenas. Triste. A comédia também, embora funcione, é mal escrita e sem timing." <br><br> <b>Avaliação: </b>
+        <a href="javascript:void(0)" onclick="Avaliar(1)">
+          <img src="star1.png" id="s1"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(2)">
+          <img src="star1.png" id="s2"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(3)">
+          <img src="star0.png" id="s3"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(4)">
+          <img src="star0.png" id="s4"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(5)">
+          <img src="star0.png" id="s5"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>01/11/2019</b><br><br>
+
+      </div>
+      <div class="img_avaliacao  col-12 col-md-6 col-lg-4 ">
+        &nbsp; <img src="avaliacao3.jpg" alt="avaliacao"> <b>&nbsp;&nbsp;Fernanda Lima</b>
+        <br><br> "Capitã Marvel: O filme é muito fraco. Não empolga em nenhum momento. A história é um "caldo de bila".
+        Não explica quase nada do contexto kree x skrull. A atriz não convenceu. Os melhores momentos, para mim na minha
+        opinião aqueles que foram protagonizados pelo gato, o que me fizeram rir." <br><br> <b>Avaliação: </b>
+        <a href="javascript:void(0)" onclick="Avaliar(1)">
+          <img src="star1.png" id="s1"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(2)">
+          <img src="star0.png" id="s2"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(3)">
+          <img src="star0.png" id="s3"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(4)">
+          <img src="star0.png" id="s4"></a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(5)">
+          <img src="star0.png" id="s5"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>24/12/2019</b><br><br>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-end button_main">
+        <button type="button" class="btn btn-primary btn-sm botao"><span><i class="fas fa-plus"></i></span>Carregar mais
+          avaliações</button>
+      </div>
+    </div>
+
+    <h2><b>Entrevistas & Making of</b></h2>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-4 filmes_main filmes_main2">
+            <iframe width="280" height="260" src="https://www.youtube.com/embed/VKHluUWocAk" allowfullscreen
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <h5><b>FILME: </b>Sonic <br></h5>
+            <h6><b>Diretor:</b> Jeff Fowler</h6>
+            <h6><b>Roteiro:</b> Patrick Casey; Josh Miller</h6>
+            <h6><b>Estréia:</b> 2020</h6>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 filmes_main filmes_main2">
+            <iframe width="280" height="260" src="https://www.youtube.com/embed/j2GNxFcSBgQ" allowfullscreen
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <h5><b>FILME: </b>Batman <br></h5>
+            <h6><b>Diretor:</b> Christopher Nolan</h6><b>Roteiro:</b> Christopher, Jonathan Nolan</h6>
+            <h6><b>Estréia:</b> 2008</h6>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 filmes_main filmes_main2">
+            <iframe width="280" height="260" src="https://www.youtube.com/embed/NbInW96wk9Y" allowfullscreen
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <h5><b>FILME: </b>Homem de aço <br></h5>
+            <h6><b>Diretor:</b> Zack Snyder</h6><b>Roteiro:</b> David S. Goyer</h6>
+            <h6><b>Estréia:</b> 2013</h6>
+            <div class="row">
+              <div class="col-12 d-flex justify-content-end button_main">
+                <button type="button" class="btn btn-primary btn-sm botao"><span><i
+                      class="fas fa-plus"></i></span>Carregar mais
+                  +</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+
+          <!--novidades e sobre-->
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8  novidades">
+            <section class="texto-das-secoes">
+              <h2 class="">Novidades</h2>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra" style="border-bottom: 2px solid ;">
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
+                <img class="novidades-imagens" height="170" width="300" src="os-simpsons-apu.webp"
+                  style="max-height: 100%;max-width: 100%;">
+              </div>
+              <div class="col-12 col-sm-12 col-md-8 col-lg-8 ">
+                <h3 style="margin-top: none;">Dubladores dos Simpsons</h3>
+                <p>Os produtores de “Os Simpsons” anunciaram na última sexta-feira (27) que a animação não terá mais
+                  atores brancos dublando personagens não-brancos, ou seja, personagens negros e de outras etnias
+                  deverão ser dublados por pessoas que os representem como tal.</p>
+                <p
+                  style="background-color:rgb(0, 110, 0); border-radius: 30%; width: 120px;text-align: center;color: white;">
+                  IGUALDADE</p>
+              </div>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra" style="border-bottom: 2px solid ; ">
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <img class="novidades-imagens" height="170" width="300" src="simpsons-coronavirus-300x170.webp"
+                  style="max-height: 100%;max-width: 100%;">
+              </div>
+              <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                <h3>Simpsons previu coronavírus?</h3>
+                <p class="pv">A animação da Fox adquiriu a fama de “prever” os principais acontecimentos do mundo em sua
+                  trama. Em fevereiro, internautas relembraram de uma gripe asiática retratada pela produção em 1993 e
+                  logo disseram que se tratava da previsão sobre o surto de Covid-19. <br></p>
+                <p
+                  style="background-color:rgb(0, 110, 0); border-radius: 30%; width: 120px;text-align: center;color: white;">
+                  CORONAVÍRUS</p>
+              </div>
+            </section>
+
+            <section class="row editar-novidades">
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <img class="novidades-imagens" height="170" width="300" src="avatar.webp"
+                  style="max-height: 100%;max-width: 100%;">
+              </div>
+              <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                <h3>AVATAR 3</h3>
+                <p class="pv">“Estamos 100% completos no Avatar 2 e cerca de 95% no Avatar 3” disse o diretor do filme.
+                  De acordo com o calendário da Disney, Avatar 2 está previsto para ser lançado em 16 de dezembro de
+                  2022 e Avatar 3 em 20 de dezembro de 2024. A quarta e quinta partes devem ser lançadas em 2026 e 2028.
+                </p>
+                <p
+                  style="background-color:rgb(0, 110, 0); border-radius: 30%; width: 120px;text-align: center;color: white;">
+                  LANÇAMENTOS</p>
+              </div>
+            </section>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
+            <section class="texto-das-secoes">
+              <h2>Sobre</h2>
+              <p class=pv style="border-bottom: 2px solid ;border-left: 2px solid ;">Este site foi construído com base
+                no wireframe pré estabelecido da disciplina de Desenvolvimento de Interfaces WEB da faculdade PUC-MG.
+              </p>
+              <h2>Editorial</h2>
+
+              <section class="row" style="border-bottom: 2px solid ;border-left: 2px solid ;">
+                <div class="col-2"><img src="icone-editorial.jpg" style="max-width: 80%;border-radius: 50%;width: auto;
+            height: auto;">
+                </div>
+                <div class="col-10">
+                  <p><strong>Redação:</strong> Antônio Francisco Queiroz Almeida</p>
+                </div>
+              </section>
+
+              <section class="row" style="border-bottom: 2px solid ;border-left: 2px solid ;">
+                <div class="col-2">
+                  <img src="icone-editorial.jpg" style="max-width: 80%;border-radius: 50%;width: auto;
+            height: auto;">
+                </div>
+                <div class="col-10">
+                  <p><strong>Pesquisa:</strong> Antônio Francisco Queiroz Almeida</p>
+                </div>
+              </section>
+
+              <section class="row" style="border-bottom: 2px solid ;border-left: 2px solid ;">
+                <div class="col-2">
+                  <img src="icone-editorial.jpg" style="max-width: 80%;border-radius: 50%;width: auto;
+            height: auto;">
+                </div>
+                <div class="col-10">
+                  <p><strong>Gerente Geral:</strong> Antônio Francisco Queiroz Almeida</p>
+                </div>
+              </section>
+
+              <h2>Redes Sociais:</h2>
+              <div style="border-bottom: 2px solid ;border-left: 2px solid ;">
+                <a href="https://api.whatsapp.com/send?phone=5531999477607&text=oi%2Cvim%20atrav%C3%A9s%20do%20trabaalho%20de%20DIW"
+                  target="blank"> <img src="wpp.jpg" style="width: 35px; height: 35px;"></a>
+                <a href="https://www.instagram.com/_antonioqueiroz_/?hl=pt-br" target="blank"> <img src="insta.jpg"
+                    style="width: 35px; height: 35px;"></a>
+              </div>
+
+            </section>
+          </div>
+        </div>
+
+      </div>
+
+  </main>
+
+  <footer class="container-fluid"
+    style="background-color: rgb(0, 110, 0);margin-left:none;margin-bottom: none;margin-right: none;">
+    <p style="text-align: center; font-size: medium; margin-bottom: 20px;margin-bottom: none; color: white;"><br><br>
+      Filmes Q- Todos os direitos reservados - 2020. <br><br><br></p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
